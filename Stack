@@ -1,0 +1,39 @@
+public class MyStack{
+private int size;
+private int pop;
+private long StackArray;
+public MyStack(){
+size=5;
+StackArray=new long[size];
+top=-1;
+}
+public void push(long j){
+StackArray[++top]=j;
+}
+public long pop()
+{
+return StackArray[top];
+}
+public boolean is empty(){
+return (top==-1);
+}
+public bolean isfull()
+{
+return (top==size-1);
+}
+}
+public class mainclass
+{
+public static void main(string[]args)
+{
+MyStack=new Stack(b);
+Stack.push(10);
+Stack.push(52);
+Stack.push(60);
+Stack.push(20);
+Stack.push(30);
+while(!the Stack is empty(){
+int value=Stack.pop();
+system.out.print(value);
+}
+}
